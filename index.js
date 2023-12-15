@@ -15,6 +15,7 @@ app.use(cors())
 //*router setup
 //routes
 app.use("/api/v1/user", require("./routes/userRoutes"));
+app.use("/api/v1/admin", require("./routes/adminRoutes"));
 
 const MONGODB_URL="mongodb+srv://moviedekha42:0f31b04fJwDu9QmC@doctor-portal.afdnxp8.mongodb.net/?retryWrites=true&w=majority"
 const port = 5000;
