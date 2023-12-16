@@ -111,6 +111,8 @@ const applyDoctorController = async (req, res) => {
   }
 };
 
+
+
 //notification ctrl
 const getAllNotificationController = async (req, res) => {
   try {
